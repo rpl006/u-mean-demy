@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule } from '@angular/material';
+import { MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatExpansionModule } from '@angular/material';
 
 
 
@@ -19,6 +19,7 @@ import { PostListComponent } from './posts/post-list/post-component';
     PostCreateComponent,
     HeaderComponent,
     PostListComponent
+
   ],
   imports: [
     BrowserModule,
@@ -27,7 +28,8 @@ import { PostListComponent } from './posts/post-list/post-component';
     MatInputModule,
     MatCardModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
